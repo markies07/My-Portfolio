@@ -111,6 +111,7 @@
     </main>
 
     <!-- SECOND PAGE -->
+    <!-- ABOUT ME -->
     <main id="about" class="w-full h-[100vh] text-black">
       <div
         class="flex items-center justify-center h-full flex-col md:gap-16 2xl:gap-20"
@@ -140,10 +141,8 @@
           </div>
           <div class="px-7 pt-10 md:pt-0 md:w-1/2 md:px-0 sm:flex items-center">
             <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              similique velit quae asperiores exercitationem, praesentium,
-              impedit eveniet doloribus officia distinctio autem error ducimus
-              excepturi consectetur facilis ad sit veritatis consequatur.
+              I'm Mark Christian M. Naval, I create good looking and appealing
+              videos and website that can help advertising your businesses.
             </p>
           </div>
         </div>
@@ -151,6 +150,7 @@
     </main>
 
     <!-- THIRTH PAGE -->
+    <!-- SERVICES -->
     <main id="services" class="h-[100svh] bg-black w-full relative">
       <div class="flex items-center justify-center h-full flex-col">
         <div>
@@ -163,32 +163,32 @@
 
         <div class="flex relative flex-col gap-16 lg:flex-row">
           <div
-            class="cursor-pointer w-[22rem] xl:w-[30rem] relative brightness-90 border-2 border-red-500 rounded-lg duration-150 overflow-hidden hover:brightness-110"
+            class="cursor-pointer w-[22rem] xl:w-[30rem] relative brightness-90 border-4 border-red-500 rounded-lg duration-150 overflow-hidden hover:brightness-110"
           >
             <a href="#projects">
               <img
-                src="https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80"
+                src="thumbnails/editing.jpg"
                 alt=""
                 class="w-full hover:scale-110 duration-200 object-cover h-full"
             /></a>
             <div
-              class="font-bold absolute cursor-default text-center w-full text-white bottom-3"
+              class="font-bold absolute cursor-default text-red-100 text-center w-full bottom-3"
             >
               Video Editing
             </div>
           </div>
 
           <div
-            class="cursor-pointer w-[22rem] xl:w-[30rem] relative brightness-90 border-2 border-red-500 rounded-lg duration-150 overflow-hidden hover:brightness-110"
+            class="cursor-pointer w-[22rem] xl:w-[30rem] relative brightness-90 border-4 border-red-500 rounded-lg duration-150 overflow-hidden hover:brightness-110"
           >
             <a href="#web">
               <img
-                src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src="thumbnails/developing.jpg"
                 alt=""
                 class="w-full hover:scale-110 duration-200"
             /></a>
             <div
-              class="font-bold absolute cursor-default text-center w-full text-white bottom-3"
+              class="font-bold absolute cursor-default text-red-100 text-center w-full bottom-3"
             >
               Web Developing
             </div>
@@ -198,11 +198,9 @@
     </main>
 
     <!-- FOURTH PAGE -->
-    <main
-      id="projects"
-      class="2xl:h-[100svh] py-14 md:py-20 2xl:py-0 w-full relative"
-    >
-      <div class="flex items-center justify-center h-full flex-col">
+    <!-- RECENT PROJECTS -->
+    <main id="projects" class="2xl:h-[100svh] py-14 md:py-20 2xl:py-0 w-full">
+      <div class="flex items-center justify-center h-full flex-col relative">
         <div>
           <h1 class="font-semibold text-3xl text-red-500 text-center">
             <span class="text-black">SAMPLE</span> PROJECTS
@@ -270,10 +268,10 @@
         </div>
 
         <!-- 1st SAMPLE VIDEOS -->
-        <div class="md:flex gap-5 mt-10 xl:flex-col">
+        <div class="md:flex gap-5 mt-10 xl:flex-col relative">
           <div class="flex flex-col xl:flex-row gap-7 2xl:gap-10 mb-7">
             <div
-              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl duration-150 relative"
+              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl border-4 border-red-500 duration-150 relative"
             >
               <img
                 src="thumbnails/thumbnail1.jpg"
@@ -284,6 +282,7 @@
                 class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
               >
                 <svg
+                  onclick="playVideo('videos/first.mp4')"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="100"
@@ -298,7 +297,7 @@
               </div>
             </div>
             <div
-              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl duration-150 relative"
+              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl border-4 border-red-500 duration-150 relative"
             >
               <img
                 src="thumbnails/thumbnail2.png"
@@ -309,6 +308,7 @@
                 class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
               >
                 <svg
+                  onclick="playVideo('videos/second.mp4')"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="100"
@@ -323,7 +323,7 @@
               </div>
             </div>
             <div
-              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl duration-150 relative"
+              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl border-4 border-red-500 duration-150 relative"
             >
               <img
                 src="thumbnails/thumbnail3.png"
@@ -334,6 +334,7 @@
                 class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
               >
                 <svg
+                  onclick="playVideo('videos/third.mp4')"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="100"
@@ -352,7 +353,7 @@
           <!-- 2nd SAMPLE VIDEO -->
           <div class="flex flex-col xl:flex-row gap-7 2xl:gap-10">
             <div
-              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl duration-150 relative"
+              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl border-4 border-red-500 duration-150 relative"
             >
               <img
                 src="thumbnails/thumbnail4.png"
@@ -363,6 +364,7 @@
                 class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
               >
                 <svg
+                  onclick="playVideo('videos/fourth.mp4')"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="100"
@@ -377,7 +379,7 @@
               </div>
             </div>
             <div
-              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl duration-150 relative"
+              class="w-[22rem] 2xl:w-[26rem] p-5 bg-black rounded-2xl border-4 border-red-500 duration-150 relative"
             >
               <img
                 src="thumbnails/thumbnail5.png"
@@ -388,6 +390,7 @@
                 class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
               >
                 <svg
+                  onclick="playVideo('videos/FIFTH.mp4')"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="100"
@@ -403,11 +406,47 @@
             </div>
           </div>
         </div>
+
+        <!-- VIDEO PLAYER -->
+        <div id="videoPlayer" class="hidden">
+          <div
+            class="absolute top-0 left-0 w-full h-full flex justify-center items-center"
+          >
+            <div
+              class="bg-black border-4 border-red-500 w-[30rem] h-[22rem] sm:w-[36rem] md:w-[43rem] sm:h-[26rem] md:h-[28rem] lg:h-[31rem] lg:w-[50rem] xl:w-[60rem] xl:h-[37rem] 2xl:h-[45rem] 2xl:w-[70rem] rounded-2xl flex justify-center items-center relative"
+            >
+              <video
+                id="myVideo"
+                class="w-[25rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[50rem] 2xl:w-[62rem]"
+                autoplay
+                controls
+              >
+                <source src="videos/" type="video/mp4" />
+              </video>
+              <div class="absolute top-2 right-2">
+                <svg
+                  onclick="stopVideo()"
+                  class="cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="45"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ff2e2e"
+                    d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <!-- FIFTH PAGE -->
-    <main id="web" class="h-[100svh] bg-black w-full relative">
+
+    <main id="web" class="py-20 lg:h-[100svh] bg-black w-full relative">
       <div class="flex items-center justify-center h-full flex-col">
         <div>
           <h1 class="font-semibold text-3xl text-red-500 text-center">
@@ -466,33 +505,111 @@
           </svg>
         </div>
 
-        <!-- GRID -->
-        <div
-          class="grid w-[80%] h-[60%] grid-rows-3 lg:grid-rows-2 gap-x-5 gap-y-10 grid-cols-2 lg:grid-cols-3 mt-10"
-        >
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
-          <div
-            class="bg-white text-lg rounded-3xl text-black text-center"
-          ></div>
+        <!-- WEB SAMPLES -->
+        <div class="mt-10 flex flex-col lg:flex-row lg:mt-14 gap-12">
+          <div>
+            <div
+              class="w-[22rem] sm:w-[25rem] 2xl:w-[30rem] p-5 border-4 border-red-500 bg-white rounded-2xl relative"
+            >
+              <img
+                class="w-full border-2 border-red-500 border- object-fill h-full rounded-xl"
+                src="thumbnails/web1.png"
+                alt=""
+              />
+              <div class="text-center font-semibold text-black pt-4">
+                YouTube Clone
+              </div>
+              <div class="absolute bottom-1 right-3">
+                <a
+                  target="_blank"
+                  href="https://markies07.github.io/Youtube-Clone/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 24"
+                    class="cursor-pointer"
+                  >
+                    <g transform="rotate(90 12 12)">
+                      <path
+                        fill="#ff2e2e"
+                        d="M8 8.4V16q0 .425-.288.713T7 17q-.425 0-.713-.288T6 16V6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6q0 .425-.288.713T17 7H9.4l8.9 8.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L8 8.4Z"
+                      />
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-[22rem] sm:w-[25rem] 2xl:w-[30rem] p-5 bg-white border-4 border-red-500 rounded-2xl relative"
+            >
+              <img
+                class="w-full border-2 border-red-500 border- object-fill h-full rounded-xl"
+                src="thumbnails/web3.png"
+                alt=""
+              />
+              <div class="text-center font-semibold text-black pt-4">
+                Edo Agenda Clone
+              </div>
+              <div class="absolute bottom-1 right-3">
+                <a
+                  target="_blank"
+                  href="https://markies07.github.io/edoagenda-clone/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 24"
+                    class="cursor-pointer"
+                  >
+                    <g transform="rotate(90 12 12)">
+                      <path
+                        fill="#ff2e2e"
+                        d="M8 8.4V16q0 .425-.288.713T7 17q-.425 0-.713-.288T6 16V6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6q0 .425-.288.713T17 7H9.4l8.9 8.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L8 8.4Z"
+                      />
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-[22rem] sm:w-[25rem] 2xl:w-[30rem] p-5 bg-white border-4 border-red-500 rounded-2xl relative"
+            >
+              <img
+                class="w-full border-2 border-red-500 border- object-fill h-full rounded-xl"
+                src="thumbnails/web2.png"
+                alt=""
+              />
+              <div class="text-center font-semibold text-black pt-4">
+                Valentine Gift
+              </div>
+              <div class="absolute bottom-1 right-3">
+                <a target="_blank" href="https://markies07.github.io/Valentine/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 24"
+                    class="cursor-pointer"
+                  >
+                    <g transform="rotate(90 12 12)">
+                      <path
+                        fill="#ff2e2e"
+                        d="M8 8.4V16q0 .425-.288.713T7 17q-.425 0-.713-.288T6 16V6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6q0 .425-.288.713T17 7H9.4l8.9 8.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L8 8.4Z"
+                      />
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
     <!-- SIXTH PAGE -->
+    <!-- CONTACT -->
     <main id="contact" class="h-[100svh] w-full relative">
       <div
         class="flex items-center justify-center h-full flex-col gap-16 xl:gap-24 pb-28 relative"
@@ -658,12 +775,7 @@
     ></script>
 
     <!-- SCRIPT -->
-    <script>
-      const navLinks = document.querySelector(".nav-link");
-      function onToggleMenu(e) {
-        e.name = e.name === "menu" ? "close" : "menu";
-        navLinks.classList.toggle("right-[0]");
-      }
-    </script>
+    <script src="app.js
+    "></script>
   </body>
 </html>
